@@ -1,0 +1,22 @@
+<?php
+	session_start();
+	if(isset($_SESSION['uid'])){
+		header('location:phonestablets.php');
+	}
+ ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>phonestablets</title>
+<style>
+a {
+    text-decoration: none;
+}
+</style>
+<body bgcolor="#green">
+<h3><center>phonestablets</h3>
+
+<button><a href="smartphones.html">smartphones</a></button>
+<button><a href="iphones.html">iphones</a></button>
+</body>
+</html>
